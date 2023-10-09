@@ -166,7 +166,7 @@ import sys
 
 if  __name__ == '__main__':
     sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8')
-    # getTroops()
-    getWeaponry()
+    getTroops()
+    # getWeaponry()
 
 

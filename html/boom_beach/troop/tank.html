@@ -1,0 +1,500 @@
+<html>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+}
+a:visited {
+    color: blue;
+}
+</style>
+<head>
+<meta charset="UTF-8">
+<title>
+tank</title>
+</head>
+<body>
+<p>
+<h1>Tank Stats</h1>
+</p>
+<button onclick="goBack()">BACK</button>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script><table style="width: 100%; text-align: center">
+<tbody><tr>
+<th >所需空间 Unit Size<br/>
+</th>
+<th >训练时间 Training Time<br/>
+</th>
+<th >移动速度 Movement Speed<br/>
+</th>
+<th >攻击范围 Attack Range<br/>
+</th>
+<th >攻击速度 Attack Speed<br/>
+</th>
+<th >司令部等级要求 Headquarters Level Required<br/>
+</th></tr>
+<tr>
+<td>8
+</td>
+<td>24m
+</td>
+<td>
+<p>Slow / 150 <span  style="cursor: help;" title="The number shown as the troop's movement speed is the number used by the game. It is shown here for comparison between troops. For example, the game displays the movement speed of both the Tank and the Zooka as 'Slow', but the Zooka is slightly faster, as displayed by its higher movement speed value."></span>
+</p>
+</td>
+<td>Long / 8.2 Tiles
+</td>
+<td>3.5s
+</td>
+<td>11
+</td></tr></tbody></table><br><table style="width: 100%; text-align: center">
+<tbody><tr>
+<th >等级 Level<br/>
+</th>
+<th >生命值 Hitpoints<br/>
+</th>
+<th >每秒伤害 DPS<br/>
+</th>
+<th >每次伤害 Damage per Shot<br/>
+</th>
+<th >训练费用 Training Cost<br/>
+</th>
+<th >训练时间 Research Cost<br/>
+</th>
+<th >研究所等级要求 Armory<br/>
+</th>
+<th >研究所升级时间 Research Time<br/>
+</th>
+<th >立刻完成 Instant<br/>
+</th>
+<th >经验值 XP Gain<br/>
+</th></tr>
+<tr>
+<td>1
+</td>
+<td >2,000
+</td>
+<td >140
+</td>
+<td >490
+</td>
+<td>8,000
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td></tr>
+<tr>
+<td>2
+</td>
+<td >2,156
+</td>
+<td >153
+</td>
+<td >535.5
+</td>
+<td>9,000
+</td>
+<td>620,000
+</td>
+<td>9
+</td>
+<td>1d 18h
+</td>
+<td>683
+</td>
+<td>68
+</td></tr>
+<tr>
+<td>3
+</td>
+<td >2,320
+</td>
+<td >166
+</td>
+<td >581
+</td>
+<td>10,000
+</td>
+<td>1,030,000
+</td>
+<td>10
+</td>
+<td>1d 23h
+</td>
+<td>837
+</td>
+<td>72
+</td></tr>
+<tr>
+<td>4
+</td>
+<td >2,510
+</td>
+<td >181
+</td>
+<td >633.5
+</td>
+<td>11,000
+</td>
+<td>1,890,000
+</td>
+<td>11
+</td>
+<td>2d 6h
+</td>
+<td>1,100
+</td>
+<td>80
+</td></tr>
+<tr>
+<td>5
+</td>
+<td >2,700
+</td>
+<td >198
+</td>
+<td >693
+</td>
+<td>12,000
+</td>
+<td>2,480,000
+</td>
+<td>12
+</td>
+<td>2d 12h
+</td>
+<td>1,273
+</td>
+<td>87
+</td></tr>
+<tr>
+<td>6
+</td>
+<td >2,910
+</td>
+<td >215
+</td>
+<td >752.5
+</td>
+<td>13,000
+</td>
+<td>2,570,000
+</td>
+<td>13
+</td>
+<td>2d 16h
+</td>
+<td>1,319
+</td>
+<td>87
+</td></tr>
+<tr>
+<td>7
+</td>
+<td >3,140
+</td>
+<td >235
+</td>
+<td >822.5
+</td>
+<td>14,000
+</td>
+<td>3,900,000
+</td>
+<td>14
+</td>
+<td>3d 8h
+</td>
+<td>1,691
+</td>
+<td>96
+</td></tr>
+<tr>
+<td>8
+</td>
+<td >3,380
+</td>
+<td >256
+</td>
+<td >896
+</td>
+<td>15,000
+</td>
+<td>5,000,000
+</td>
+<td>15
+</td>
+<td>3d 11h
+</td>
+<td>1,917
+</td>
+<td>101
+</td></tr>
+<tr>
+<td>9
+</td>
+<td >3,650
+</td>
+<td >279
+</td>
+<td >976.5
+</td>
+<td>16,000
+</td>
+<td>5,200,000
+</td>
+<td>15
+</td>
+<td>3d 14h
+</td>
+<td>1,972
+</td>
+<td>101
+</td></tr>
+<tr>
+<td>10
+</td>
+<td >3,930
+</td>
+<td >304
+</td>
+<td >1,064
+</td>
+<td>17,000
+</td>
+<td>5,400,000
+</td>
+<td>16
+</td>
+<td>3d 16h
+</td>
+<td>2,018
+</td>
+<td>101
+</td></tr>
+<tr>
+<td>11
+</td>
+<td >4,240
+</td>
+<td >331
+</td>
+<td >1,158.5
+</td>
+<td>18,000
+</td>
+<td>6,300,000
+</td>
+<td>17
+</td>
+<td>4d 3h
+</td>
+<td>2,243
+</td>
+<td>107
+</td></tr>
+<tr>
+<td>12
+</td>
+<td >4,570
+</td>
+<td >361
+</td>
+<td >1,263.5
+</td>
+<td>19,000
+</td>
+<td>7,300,000
+</td>
+<td>18
+</td>
+<td>4d 6h
+</td>
+<td>2,430
+</td>
+<td>109
+</td></tr>
+<tr>
+<td>13
+</td>
+<td >4,930
+</td>
+<td >394
+</td>
+<td >1,379
+</td>
+<td>20,000
+</td>
+<td>7,400,000
+</td>
+<td>19
+</td>
+<td>4d 9h
+</td>
+<td>2,466
+</td>
+<td>112
+</td></tr>
+<tr>
+<td>14
+</td>
+<td >5,310
+</td>
+<td >429
+</td>
+<td >1,501.5
+</td>
+<td>21,000
+</td>
+<td>7,500,000
+</td>
+<td>20
+</td>
+<td>4d 12h
+</td>
+<td>2,498
+</td>
+<td>114
+</td></tr>
+<tr>
+<td>15
+</td>
+<td >5,720
+</td>
+<td >468
+</td>
+<td >1,638
+</td>
+<td>22,000
+</td>
+<td>7,600,000
+</td>
+<td>20
+</td>
+<td>4d 15h
+</td>
+<td>2,534
+</td>
+<td>114
+</td></tr>
+<tr>
+<td>16
+</td>
+<td >6,170
+</td>
+<td >510
+</td>
+<td >1,785
+</td>
+<td>23,000
+</td>
+<td>7,700,000
+</td>
+<td>21
+</td>
+<td>4d 17h
+</td>
+<td>2,559
+</td>
+<td>116
+</td></tr>
+<tr>
+<td>17
+</td>
+<td >6,650
+</td>
+<td >556
+</td>
+<td >1,946
+</td>
+<td>24,000
+</td>
+<td>7,900,000
+</td>
+<td>22
+</td>
+<td>4d 19h
+</td>
+<td>2,603
+</td>
+<td>118
+</td></tr>
+<tr>
+<td>18
+</td>
+<td >7,160
+</td>
+<td >604
+</td>
+<td >2,114
+</td>
+<td>25,000
+</td>
+<td>8,100,000
+</td>
+<td>23
+</td>
+<td>4d 21h
+</td>
+<td>2,648
+</td>
+<td>120
+</td></tr>
+<tr>
+<td>19
+</td>
+<td >7,700
+</td>
+<td >654
+</td>
+<td >2,289
+</td>
+<td>26,000
+</td>
+<td>8,300,000
+</td>
+<td>24
+</td>
+<td>4d 23h
+</td>
+<td>2,692
+</td>
+<td>122
+</td></tr>
+<tr>
+<td>20
+</td>
+<td >8,270
+</td>
+<td >706
+</td>
+<td >2,471
+</td>
+<td>27,000
+</td>
+<td>8,500,000
+</td>
+<td>25
+</td>
+<td>5d 1h
+</td>
+<td>2,733
+</td>
+<td>124
+</td></tr></tbody></table></body>
+</html>
